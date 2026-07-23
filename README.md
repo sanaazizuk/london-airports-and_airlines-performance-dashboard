@@ -114,55 +114,56 @@ Before any analysis, the raw monthly exports needed real cleaning. Each file cov
 
 **First pass, testing the cleaning logic on a single month**
 
-*Add screenshot here: images/py_01_load.png*
+![py01 screenshot](images/py_01_load.png.png)
+
 
 The January 2023 file was loaded first on its own, to check the column structure and confirm what actually needed cleaning before touching all 40 files at once.
 
 **Filtering down to the five London airports**
 
-*Add screenshot here: images/py_02_london_filter.png*
+![py02 screenshot](images/py_02_london_filter.png)
 
 The `reporting_airport` column was checked for its full list of unique values, then filtered down to just `HEATHROW`, `GATWICK`, `STANSTED`, `LUTON`, and `LONDON CITY`, since the raw file covers every UK reporting airport by default.
 
 **Fixing the reporting period column**
 
-*Add screenshot here: images/py_03_date_conversion.png*
+![py03 screenshot](images/py_03_date_conversion.png)
 
 The `reporting_period` column arrived as a plain number in `YYYYMM` format rather than a real date, so it was converted using `pandas.to_datetime()` with an explicit format string, making it usable for any later date based grouping or sorting.
 
 **Making the coded columns readable**
 
-*Add screenshot here: images/py_04_column_mapping.png*
+![py04 screenshot](images/py_04_column_mapping.png)
 
 Two columns used single letter codes, `arrival_departure` as `A` or `D`, and `scheduled_charter` as `S` or `C`. Both were mapped to plain, readable labels, Arrival, Departure, Scheduled, and Charter, using a simple Python dictionary lookup with `.map()`.
 
 **Finding and looping through all 40 monthly files**
 
-*Add screenshot here: images/py_05_glob_all_files.png*
+![py05 screenshot](images/py_05_glob_all_files.png)
 
 Rather than repeating the cleaning steps by hand 40 times, `glob` was used to collect every matching monthly filename automatically, and the count was checked against the expected total of 40 files before proceeding.
 
 **Testing the loop on two files before running it on all forty**
 
-*Add screenshot here: images/py_06_test_loop.png*
+![py06 screenshot](images/py_06_test_loop.png)
 
 The combine loop was tested first on just the first two files in the list, to confirm the logic worked correctly, before being run against the full set. This is a deliberate habit, checking a loop on a small sample before letting it run against everything, rather than finding out something was wrong only after all 40 files had already been processed.
 
 **Catching a mixed file encoding issue**
 
-*Add screenshot here: images/py_07_encoding_error.png*
+![py07 screenshot](images/py_07_encoding_error.png)
 
 Running the loop against all 40 files failed partway through on the July 2023 file. Most of the CAA's monthly files are saved in standard UTF-8 text encoding, but this one file had evidently been opened and resaved in Excel at some point, which had quietly changed its encoding. Reading it with `latin1` encoding instead solved the problem for that one file.
 
 **Building a loop that handles both encodings automatically**
 
-*Add screenshot here: images/py_08_encoding_fallback.png*
+![py08 screenshot](images/py_08_encoding_fallback.png)
 
 Rather than manually tracking which of the 40 files needed which encoding, the loop was rewritten to try `utf-8-sig` first for every file, and automatically fall back to `latin1` only if that failed, so the cleaning process handled the encoding issue itself, file by file, without needing every file checked by hand.
 
 **Applying the same cleaning to the full combined dataset**
 
-*Add screenshot here: images/py_09_apply_cleaning_all.png*
+![py09 screenshot](images/py_09_apply_cleaning_all.png)
 
 Once all 40 files were successfully combined into one table, the same London airport filter, date conversion, and column label mapping used earlier on the single test file were applied again to the full combined dataset.
 
@@ -171,19 +172,21 @@ A missing value check was run across every column before export, confirming the 
 
 **Exporting the cleaned file**
 
-*Add screenshot here: images/py_11_export.png*
+![py11 screenshot](images/py_11_export.png)
 
 The cleaned, combined dataset was exported as `london_airports_clean.csv`, ready for MySQL.
 
 **A few quick exploratory charts, before moving to SQL**
 
-*Add screenshot here: images/py_12_exploratory_charts.png*
+![py12 screenshot](images/py_12_exploratory_charts1.png)
+![py12 screenshot](images/py_12_exploratory_charts2.png)
+![py12 screenshot](images/py_12_exploratory_charts3.png)
 
 A handful of charts were built at this stage purely to sense check the cleaned data, total flights by airport, total flights by month across the full period, and cancellation rate by airport, before the dataset was handed over to MySQL for the proper business question analysis.
 
 **Loading into MySQL**
 
-*Add screenshot here: images/py_13_mysql_load.png*
+![py12 screenshot](images/py_13_mysql_load.png)
 
 The cleaned dataframe was loaded into a local MySQL database, `london_airports_project`, using `pandas.to_sql()` with `sqlalchemy` and `pymysql`. Row count in MySQL matched the cleaned CSV exactly, 100,728 rows.
 
@@ -210,7 +213,7 @@ GROUP BY reporting_airport
 ORDER BY total_flights DESC;
 ```
 
-*Add screenshot here: images/sql_01_flights_per_airport.png*
+![sql01screenshot](images/sql_01_flights_per_airport.png)
 
 Heathrow leads by a wide margin, 1,546,667 flights over the full period, nearly double Gatwick's 845,364, and more than Stansted, Luton, and London City combined.
 
@@ -231,7 +234,7 @@ ORDER BY avg_delay_mins DESC
 LIMIT 10;
 ```
 
-*Add screenshot here: images/sql_02_worst_delay_airlines.png*
+![sql02screenshot](images/sql_02_worst_delay_airlines.png)
 
 Tunisair tops the list at 48.9 minutes average delay, followed by Rwandair Express at 47.8 minutes and Air India at 38.0 minutes. The `HAVING` clause filtering out any airline with fewer than 500 matched flights matters here, since a handful of very low volume airlines would otherwise post extreme looking averages based on only a few flights.
 
@@ -252,7 +255,7 @@ ORDER BY avg_delay_mins ASC
 LIMIT 10;
 ```
 
-*Add screenshot here: images/sql_03_best_delay_airlines.png*
+![sql03screenshot](images/sql_03_best_delay_airlines.png)
 
 KM Malta Airlines leads at just 4.3 minutes average delay, with JetBlue at 9.0 minutes and Japan Airlines at 9.7 minutes also in the top group. Both JetBlue and Japan Airlines are long haul carriers, sitting alongside short haul European airlines at the punctual end of the list, which is the clearest evidence in this project that punctuality is airline specific rather than a simple function of flight distance.
 
@@ -271,7 +274,7 @@ ORDER BY total_flights DESC
 LIMIT 10;
 ```
 
-*Add screenshot here: images/sql_04_busiest_routes.png*
+![sql04screenshot](images/sql_04_busiest_routes.png)
 
 Heathrow to New York JFK tops the list at 49,417 flights, and Heathrow holds 9 of the top 10 busiest individual routes out of London overall.
 
@@ -289,7 +292,7 @@ FROM fact_punctuality
 GROUP BY scheduled_charter;
 ```
 
-*Add screenshot here: images/sql_05_scheduled_vs_charter.png*
+![sql05screenshot](images/sql_05_scheduled_vs_charter.png)
 
 Scheduled and charter flights are compared directly on cancellation rate, giving a clean answer to whether the flight type itself, rather than the airport or airline, plays a meaningful role in cancellations.
 
@@ -318,7 +321,7 @@ FROM (
 ORDER BY reporting_airport, flight_year;
 ```
 
-*Add screenshot here: images/sql_06_yoy_change.png*
+![sql06screenshot](images/sql_06_yoy_change.png)
 
 This uses a window function, `LAG()`, partitioned by airport, to compare each airport's flight volume against its own previous year, rather than needing a manual self join. Luton shows the strongest, most consistent growth, up 2.6 per cent in 2024 and up 3.1 per cent in 2025, while Heathrow and Gatwick grew initially but plateaued by 2025, and London City has stayed essentially flat throughout. 2026 figures only cover part of the year, so any comparison involving 2026 is not directly comparable to a full prior year.
 
