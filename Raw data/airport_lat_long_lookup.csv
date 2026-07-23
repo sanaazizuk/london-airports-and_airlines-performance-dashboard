@@ -1,0 +1,585 @@
+name,matched_airport_name,matched_city,matched_country,iata,lat,lon,match_method,role
+A CORUNA,A Coruna Airport,A Coruna,ES,LCG,43.3021,-8.3773,manual_override,destination
+AALBORG,Aalborg Airport,Aalborg,DK,AAL,57.09276,9.84924,city_match_single,destination
+AARHUS (TIRSTRUP),Aarhus Airport,Aarhus,DK,AAR,56.3,10.619,city_match_single,destination
+ABERDEEN,Aberdeen Dyce Airport,Aberdeen,GB,ABZ,57.2019,-2.19778,city_multi_noqualifier_guess,destination
+ABU DHABI - BATEEN,Abu Dhabi International Airport,Abu Dhabi,AE,AUH,24.433,54.6511,city_multi_noqualifier_guess,destination
+ABU DHABI INTERNATIONAL,Abu Dhabi International Airport,Abu Dhabi,AE,AUH,24.433,54.6511,city_multi_noqualifier_guess,destination
+ABUJA,Nnamdi Azikiwe International Airport,Abuja,NG,ABV,9.00679,7.26317,city_match_single,destination
+ACCRA,Kotoka International Airport,Accra,GH,ACC,5.60519,-0.16679,city_match_single,destination
+ADANA,Adana Airport,Adana,TR,ADA,36.9822,35.2804,city_multi_noqualifier_guess,destination
+ADDIS ABABA,Bole International Airport,Addis Ababa,ET,ADD,8.97789,38.7993,city_match_single,destination
+AGADIR (AL MASSIRA),Al Massira Airport,Agadir,MA,AGA,30.325,-9.41307,city_match_single,destination
+AHMEDABAD,Sardar Vallabhbhai Patel International Airport,Ahmedabad,IN,AMD,23.0772,72.6347,city_match_single,destination
+AJACCIO,Meribel Airport,Ajaccio,FR,MFX,45.4069,6.58056,city_match_single,destination
+AKTAU,Aktau International Airport,Aktau,KZ,SCO,43.8601,51.092,city_match_single,destination
+AKUREYRI,Akureyri Airport,Akureyri,IS,AEY,65.66,-18.0727,city_match_single,destination
+ALESUND,Alesund Airport Vigra,Alesund,NO,AES,62.5625,6.1197,manual_override,destination
+ALGHERO (FERTILIA),Alghero / Fertilia Airport,Alghero,IT,AHO,40.6321,8.29077,city_match_single,destination
+ALGIERS,Houari Boumediene Airport,Algiers,DZ,ALG,36.691,3.21541,city_match_single,destination
+ALICANTE,Alicante International Airport,Alicante,ES,ALC,38.2822,-0.55816,city_match_single,destination
+ALMATY,Almaty International Airport,Almaty,KZ,ALA,43.3521,77.0405,city_match_single,destination
+ALMERIA,Almeria International Airport,Almeria,ES,LEI,36.8439,-2.3701,city_match_single,destination
+AMMAN,Amman-Marka International Airport,Amman,JO,ADJ,31.9727,35.9916,city_multi_noqualifier_guess,destination
+AMMAN (KING HUSSEIN),Amman-Marka International Airport,Amman,JO,ADJ,31.9727,35.9916,city_multi_qualifier(0.22),destination
+AMRITSAR,Sri Guru Ram Dass Jee International Airport Amritsar,Amritsar,IN,ATQ,31.7096,74.7973,city_match_single,destination
+AMSTERDAM,Amsterdam Airport Schiphol,Amsterdam,NL,AMS,52.3086,4.76389,city_match_single,destination
+ANCONA,Ancona / Falconara Airport,Ancona,IT,AOI,43.6163,13.3623,city_match_single,destination
+ANKARA (ESENBOGA),Esenboga International Airport,Ankara,TR,ESB,40.1281,32.9951,city_multi_qualifier(0.72),destination
+ANTALYA,Antalya International Airport,Antalya,TR,AYT,36.8987,30.8005,city_match_single,destination
+ANTIGUA,V.C. Bird International Airport,Antigua,AG,ANU,17.1367,-61.7927,manual_override,destination
+ANTWERP,Antwerp International Airport (Deurne),Antwerp,BE,ANR,51.1122,4.2737,city_match_single,destination
+AQABA,Aqaba King Hussein International Airport,Aqaba,JO,AQJ,29.6116,35.0181,city_match_single,destination
+ARRECIFE,Lanzarote Airport,Arrecife,ES,ACE,28.9455,-13.6052,manual_override,destination
+ARUBA,Queen Beatrix International Airport,Oranjestad,AW,AUA,12.5014,-70.0152,manual_override,destination
+ARVIDSJAUR,Arvidsjaur Airport,Arvidsjaur,SE,AJR,65.5903,19.2819,city_match_single,destination
+ASHKHABAD,Ashgabat International Airport,Ashgabat,TM,ASB,37.9868,58.361,manual_override,destination
+ASTURIAS,Asturias Airport,Aviles,ES,OVD,43.5636,-6.0346,manual_override,destination
+ATHENS,Eleftherios Venizelos International Airport,Athens,GR,ATH,37.9364,23.9445,city_multi_noqualifier_guess,destination
+ATLANTA,Hartsfield/Jackson Atlanta International Airport,Atlanta,US,ATL,33.6367,-84.427864,city_multi_noqualifier_guess,destination
+AUSTIN (BERGSTROM),Austin-Bergstrom International Airport,Austin,US,AUS,30.194527,-97.669876,city_multi_qualifier(0.68),destination
+AZORES LAJES TERCEIRA ISLAND,Lajes Field,Lajes,PT,TER,38.7618,-27.0908,city_match_single,destination
+AZORES PONTA DELGADA,João Paulo II Airport,Ponta Delgada,PT,PDL,37.7412,-25.6979,city_match_single,destination
+BACAU,Bacau Airport,Bacau,RO,BCM,46.5219,26.9103,city_match_single,destination
+BADAJOZ,Badajoz Airport,Badajoz,ES,BJZ,38.8913,-6.82133,city_match_single,destination
+BAGHDAD (GECA),Baghdad International Airport,Baghdad,IQ,BGW,33.2625,44.2346,city_match_single,destination
+BAHRAIN,Bahrain International Airport,Manama,BH,BAH,26.2708,50.6336,manual_override,destination
+BAKU (HEYDER ALIYEV INT'L),Heydar Aliyev International Airport,Baku,AZ,GYD,40.4675,50.0467,city_multi_qualifier(0.93),destination
+BALE MULHOUSE,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,FR,BSL,47.5896,7.52991,city_match_single,destination
+BALTIMORE,Baltimore/Washington International Thurgood Marshall Airport,Baltimore,US,BWI,39.175728,-76.668991,city_multi_noqualifier_guess,destination
+BANDAR SERI BEGAWAN,Brunei International Airport,Bandar Seri Begawan,BN,BWN,4.9442,114.928,city_match_single,destination
+BANGALORE (BENGALURU),Bengaluru International Airport,Bangalore,IN,BLR,13.1979,77.7063,city_match_single,destination
+BANGKOK SUVARNABHUMI,Suvarnabhumi Airport,Bangkok,TH,BKK,13.69,100.7501,manual_correction,destination
+BANJA LUKA,Banja Luka International Airport,Banja Luka,BA,BNX,44.9414,17.2975,city_match_single,destination
+BANJUL,Banjul International Airport,Banjul,GM,BJL,13.338,-16.6522,city_match_single,destination
+BARCELONA,Barcelona International Airport,Barcelona,ES,BCN,41.2971,2.07846,city_multi_noqualifier_guess,destination
+BARDUFOSS,Bardufoss Airport,Bardufoss,NO,BDU,69.0558,18.5404,manual_override,destination
+BARI (PALESE),Bari / Palese International Airport,Bari,IT,BRI,41.1389,16.7606,city_match_single,destination
+BASTIA,Bastia-Poretta Airport,Bastia/Poretta,FR,BIA,42.5527,9.48373,city_match_single,destination
+BEAUVAIS,Paris Beauvais Tille Airport,Beauvais/Tille,FR,BVA,49.4544,2.11278,city_match_single,destination
+BEIJING,Beijing Capital International Airport,Beijing,CN,PEK,40.0801,116.585,city_multi_noqualifier_guess,destination
+BEIJING DAXING INTERNATIONAL AIRPORT,Beijing Daxing International Airport,Beijing,CN,PKX,39.5,116.4,city_multi_noqualifier_guess,destination
+BEIRUT,Beirut Rafic Hariri International Airport,Beirut,LB,BEY,33.8209,35.4884,city_match_single,destination
+BEJA,Beja International Airport,Beja,PT,BYJ,38.0789,-7.9324,city_match_single,destination
+BELFAST CITY (GEORGE BEST),Belfast International Airport,Belfast,GB,BFS,54.6575,-6.21583,city_multi_noqualifier_guess,destination
+BELFAST INTERNATIONAL,Belfast International Airport,Belfast,GB,BFS,54.6575,-6.21583,city_multi_noqualifier_guess,destination
+BELGRADE,Belgrade Nikola Tesla Airport,Belgrade,RS,BEG,44.8184,20.3091,manual_override,destination
+BENAZIR BHUTTO INTERNATIONAL AIRPORT,Islamabad Benazir Bhutto International Airport,Islamabad,PK,ISB,33.5497,72.8256,manual_correction,destination
+BERGAMO,Bergamo / Orio Al Serio Airport,Bergamo,IT,BGY,45.6739,9.70417,city_match_single,destination
+BERGEN,Bergen Airport Flesland,Bergen,NO,BGO,60.2934,5.21814,city_match_single,destination
+BERGERAC,Bergerac-Roumaniere Airport,Bergerac/Roumaniere,FR,EGC,44.8253,0.51861,city_match_single,destination
+BERLIN BRANDENBURG,Berlin Brandenburg Airport,Berlin,DE,BER,52.3667,13.5033,manual_correction,destination
+BERMUDA,L.F. Wade International Airport,Hamilton,BM,BDA,32.364,-64.6787,manual_override,destination
+BEZIERS,Beziers-Vias Airport,Beziers/Vias,FR,BZR,43.3235,3.3539,city_match_single,destination
+BIARRITZ,Biarritz-Anglet-Bayonne Airport,Biarritz/Anglet/Bayonne,FR,BIQ,43.4684,-1.52332,city_match_single,destination
+BILBAO,Bilbao Airport,Bilbao,ES,BIO,43.3011,-2.91061,city_match_single,destination
+BILLUND,Billund Airport,Billund,DK,BLL,55.7403,9.15178,city_match_single,destination
+BIRMINGHAM,Birmingham International Airport,Birmingham,GB,BHX,52.4539,-1.74803,city_multi_noqualifier_guess,destination
+BLACKPOOL,Blackpool International Airport,Blackpool,GB,BLK,53.7717,-3.02861,city_match_single,destination
+BOA VISTA (RABIL),Atlas Brasil Cantanhede Airport,Boa Vista,BR,BVB,2.84139,-60.69222,city_match_single,destination
+BODO,Bodo Airport,Bodo,NO,BOO,67.2692,14.3653,manual_override,destination
+BODRUM (MILAS),Milas Bodrum International Airport,Bodrum,TR,BJV,37.2506,27.6643,city_multi_qualifier(0.56),destination
+BOGOTA,El Dorado International Airport,Bogota,CO,BOG,4.70159,-74.1469,city_match_single,destination
+BOLOGNA,Bologna / Borgo Panigale Airport,Bologna,IT,BLQ,44.5354,11.2887,city_match_single,destination
+BOLZANO,Bolzano Airport,Bolzano,IT,BZO,46.4602,11.3264,city_match_single,destination
+BORDEAUX,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,FR,BOD,44.8283,-0.71556,city_match_single,destination
+BOSTON,General Edward Lawrence Logan International Airport,Boston,US,BOS,42.362944,-71.006389,city_match_single,destination
+BOURNEMOUTH,Bournemouth Airport,Bournemouth,GB,BOH,50.78,-1.8425,city_match_single,destination
+BRASILIA,Presidente Juscelino Kubistschek International Airport,Brasilia,BR,BSB,-15.86917,-47.92083,city_match_single,destination
+BRASOV-GHIMBAV,Brasov-Ghimbav Airport,Brasov,RO,GHV,45.7092,25.535,manual_override,destination
+BRATISLAVA,M. R. Stefanik Airport,Bratislava,SK,BTS,48.1702,17.2127,city_match_single,destination
+BRAUNSCHWEIG,Braunschweig Wolfsburg Airport,,DE,BWE,52.3192,10.5561,fuzzy(0.43),destination
+BREMEN,Bremen Airport,Bremen,DE,BRE,53.0475,8.78667,city_match_single,destination
+BRESCIA/MONTICHIARI,Brescia / Montichiari Airport,Brescia,IT,VBS,45.4289,10.3306,city_match_single,destination
+BREST,Brest Airport,Brest,BY,BQT,52.1083,23.8981,city_match_single,destination
+BREST (BELARUS),Brest Airport,Brest,BY,BQT,52.1083,23.8981,city_match_single,destination
+BRIDGETOWN,Sir Grantley Adams International Airport,Bridgetown,BB,BGI,13.0746,-59.4925,city_match_single,destination
+BRINDISI,Brindisi / Casale Airport,Brindisi,IT,BDS,40.6576,17.947,city_match_single,destination
+BRISTOL,Bristol International Airport,Bristol,GB,BRS,51.3827,-2.71909,city_match_single,destination
+BRIVE-LA-GAILLARDE,Brive-Souillac Airport,Brive,FR,BVE,45.0392,1.4833,manual_override,destination
+BRIZE NORTON,RAF Brize Norton,Brize Norton,GB,BZZ,51.75,-1.58362,city_match_single,destination
+BRNO (TURANY),Brno-Turany Airport,Brno,CZ,BRQ,49.1513,16.6944,city_match_single,destination
+BRUSSELS,Brussels Airport,Brussels,BE,BRU,50.5405,4.2904,city_multi_noqualifier_guess,destination
+BUCHAREST (BANEASA),Baneasa International Airport,Bucharest,RO,BBU,44.5032,26.1021,city_multi_qualifier(0.69),destination
+BUCHAREST (OTOPENI),Henri Coanda International Airport,Bucharest,RO,OTP,44.5722,26.1022,city_multi_qualifier(0.15),destination
+BUDAPEST,Budapest Ferenc Liszt International Airport,Budapest,HU,BUD,47.4369,19.2556,city_match_single,destination
+BUENOS AIRES,Jorge Newbery Airpark,Buenos Aires,AR,AEP,-34.5592,-58.4156,city_match_single,destination
+BUFFALO,Buffalo Niagara International Airport,Buffalo,US,BUF,42.940427,-78.73057,city_multi_noqualifier_guess,destination
+BURGAS,Burgas Airport,Burgas,BG,BOJ,42.5696,27.5152,city_match_single,destination
+BYDGOSZCZ,Bydgoszcz Ignacy Jan Paderewski Airport,Bydgoszcz,PL,BZG,53.0968,17.9777,city_match_single,destination
+CAGLIARI (ELMAS),Cagliari / Elmas Airport,Cagliari,IT,CAG,39.2515,9.05428,city_match_single,destination
+CAIRO,Cairo International Airport,Cairo,EG,CAI,30.1219,31.4056,city_multi_noqualifier_guess,destination
+CAIRO WEST AFB,Cairo International Airport,Cairo,EG,CAI,30.1219,31.4056,city_multi_noqualifier_guess,destination
+CALGARY,Calgary International Airport,Calgary,CA,YYC,51.1139,-114.02,city_match_single,destination
+CALVI,Calvi-Sainte-Catherine Airport,Calvi/Sainte-Catherine,FR,CLY,42.5308,8.79319,city_match_single,destination
+CANCUN,Cancun International Airport,Cancun,MX,CUN,21.0365,-86.8771,city_match_single,destination
+CANNES,Cannes-Mandelieu Airport,Cannes/Mandelieu,FR,CEQ,43.542,6.95348,city_match_single,destination
+CAPE TOWN,Cape Town International Airport,Cape Town,ZA,CPT,-33.9648,18.6017,city_match_single,destination
+CARCASSONNE,Carcassonne Airport,Carcassonne/Salvaza,FR,CCF,43.216,2.30632,city_match_single,destination
+CARDIFF WALES,Cardiff International Airport,Cardiff,GB,CWL,51.3967,-3.34333,city_match_single,destination
+CASABLANCA MOHAMED V,Mohammed V International Airport,Casablanca,MA,CMN,33.3675,-7.58997,city_match_single,destination
+CASCAIS,Cascais Airport,Cascais,PT,CAT,38.725,-9.35523,city_match_single,destination
+CASTELLON COSTA AZAHAR,Castellon-Costa Azahar Airport,Castellon,ES,CDT,40.2131,0.0733,manual_override,destination
+CATANIA (FONTANAROSSA),Catania / Fontanarossa Airport,Catania,IT,CTA,37.4668,15.0664,city_match_single,destination
+CHALONS (VATRY),Chalons-Vatry Air Base,Chalons/Vatry,FR,XCR,48.7761,4.18449,city_match_single,destination
+CHAMBERY,Chambery-Savoie Airport,Chambery/Aix-les-Bains,FR,CMF,45.6381,5.88023,city_match_single,destination
+CHANGSHA HUANGHUA INTERNATIONAL AIRPORT,Changsha Huanghua Airport,Changsha,CN,CSX,28.1892,113.22,city_match_single,destination
+CHANIA,Chania International Airport (Souda),Chania,GR,CHQ,35.5317,24.1497,manual_override,destination
+CHARLEROI,Brussels South Charleroi Airport,Charleroi,BE,CRL,50.4592,4.4525,manual_override,destination
+CHARLOTTE,Charlotte/Douglas International Airport,Charlotte,US,CLT,35.213187,-80.951379,city_match_single,destination
+CHATTANOOGA,Lovell Field,Chattanooga,US,CHA,35.035194,-85.203556,city_match_single,destination
+CHENGDU,Chengdu Shuangliu International Airport,Chengdu,CN,CTU,30.5785,103.947,city_match_single,destination
+CHENGDU TIANFU,Chengdu Shuangliu International Airport,Chengdu,CN,CTU,30.5785,103.947,city_multi_noqualifier_guess,destination
+CHENNAI,Chennai International Airport,Chennai,IN,MAA,12.99001,80.1693,city_match_single,destination
+CHICAGO (O'HARE),Chicago O'Hare International Airport,Chicago,US,ORD,41.97694,-87.90815,city_multi_qualifier(0.59),destination
+CHISINAU (KISHINEV),Chisinau International Airport,Chisinau,MD,KIV,46.9277,28.9309,manual_override,destination
+CHISINAU INTERNATIONAL,Chisinau International Airport,Chisinau,MD,KIV,46.9277,28.9309,manual_correction,destination
+CHONGQING JIANGBEI INTERNATIONAL,Chongqing Jiangbei International Airport,Chongqing,CN,CKG,29.7192,106.642,city_multi_noqualifier_guess,destination
+CINCINNATI,Cincinnati Municipal/Lunken Field,Cincinnati,US,LUK,39.102977,-84.417606,city_match_single,destination
+CITY OF DERRY (EGLINTON),City of Derry Airport,Derry,GB,LDY,55.0428,-7.16111,city_match_single,destination
+CLERMONT FERRAND,Clermont-Ferrand Auvergne Airport,Clermont-Ferrand/Auvergne,FR,CFE,45.7867,3.16917,city_match_single,destination
+CLUJ NAPOCA,Cluj-Napoca International Airport,Cluj-Napoca,RO,CLJ,46.7852,23.6862,city_match_single,destination
+COCHIN,Cochin International Airport,Cochin,IN,COK,10.152,76.4019,city_match_single,destination
+COLOGNE BONN,Cologne Bonn Airport,Cologne,DE,CGN,50.8659,7.14274,city_multi_noqualifier_guess,destination
+COLOMBO,Bandaranaike International Apt Colombo Airport,Colombo,LK,CMB,7.18076,79.8841,city_multi_noqualifier_guess,destination
+COMISO,Comiso Airport Vincenzo Magliocco,Comiso,IT,CIY,36.9946,14.60718,city_match_single,destination
+CONAKRY,Conakry Airport,Conakry,GN,CKY,9.57689,-13.612,city_match_single,destination
+CONSTANTA,Mihail Kogalniceanu International Airport,Constanta,RO,CND,44.3622,28.4883,city_match_single,destination
+COPENHAGEN,Copenhagen Kastrup Airport,Copenhagen,DK,CPH,55.6179,12.656,city_multi_noqualifier_guess,destination
+CORFU,Corfu International Airport (Ioannis Kapodistrias),Corfu,GR,CFU,39.6019,19.9117,manual_override,destination
+CORK,Cork Airport,Cork,IE,ORK,51.8413,-8.49111,city_match_single,destination
+CRAIOVA,Craiova Airport,Craiova,RO,CRA,44.3181,23.8886,city_match_single,destination
+CUKUROVA,Adana Airport,Adana,TR,ADA,36.9822,35.2804,city_multi_noqualifier_guess,destination
+CURACAO,Hato International Airport,Willemstad,CW,CUR,12.1889,-68.9598,manual_override,destination
+DAKAR,Leopold Sedar Senghor International Airport,Dakar,SN,DKR,14.7397,-17.4902,city_match_single,destination
+DAKAR (BLAISE DIAGNE),Leopold Sedar Senghor International Airport,Dakar,SN,DKR,14.7397,-17.4902,city_match_single,destination
+DALAMAN,Dalaman International Airport,Dalaman,TR,DLM,36.7131,28.7925,city_match_single,destination
+DALLAS/FORT WORTH,Dallas-Fort Worth International Airport,Dallas-Fort Worth,US,DFW,32.897233,-97.037695,city_match_single,destination
+DAMMAM,King Fahd International Airport,Ad Dammam,SA,DMM,26.4712,49.7979,city_match_single,destination
+DARWIN,Darwin International Airport,Darwin,AU,DRW,-12.4147,130.877,city_match_single,destination
+DEBRECEN,Debrecen International Airport,Debrecen,HU,DEB,47.4889,21.6153,city_match_single,destination
+DELHI,Indira Gandhi International Airport,New Delhi,IN,DEL,28.5665,77.1031,city_match_single,destination
+DENVER INTERNATIONAL,Denver International Airport,Denver,US,DEN,39.861667,-104.673167,city_multi_noqualifier_guess,destination
+DETROIT,Detroit Metro Wayne County Airport,Detroit,US,DTW,42.212431,-83.353393,city_multi_noqualifier_guess,destination
+DHAKHA,Dhaka / Hazrat Shahjalal International Airport,Dhaka,BD,DAC,23.84335,90.39778,city_match_single,destination
+DIEGO GARGIA,Diego Garcia Naval Support Facility,Diego Garcia,IO,NKW,-7.3132,72.4111,manual_override,destination
+DOHA HAMAD,Hamad International Airport,Doha,QA,DOH,25.2731,51.6086,manual_correction,destination
+DOHA INTERNATIONAL,Hamad International Airport,Doha,QA,DOH,25.2731,51.6086,manual_correction,destination
+DOLE,Dole-Tavaux Airport,Dole/Tavaux,FR,DLE,47.039,5.42725,city_match_single,destination
+DONCASTER SHEFFIELD,Robin Hood Airport Doncaster Sheffield,Doncaster,GB,DSA,53.4744,-1.0044,manual_override,destination
+DORTMUND,Dortmund Airport,Dortmund,DE,DTM,51.5183,7.61224,city_match_single,destination
+DRESDEN,Dresden Airport,Dresden,DE,DRS,51.1328,13.7672,city_match_single,destination
+DUBAI,Dubai International Airport,Dubai,AE,DXB,25.2528,55.3644,city_multi_noqualifier_guess,destination
+DUBAI (WORLD CENTRAL),Al Minhad Air Base,Dubai,AE,NHD,25.0268,55.3662,city_multi_qualifier(0.26),destination
+DUBLIN,Dublin Airport,Dublin,IE,DUB,53.4213,-6.27007,city_multi_noqualifier_guess,destination
+DUBROVNIK,Dubrovnik Airport,Dubrovnik,HR,DBV,42.5614,18.2682,city_match_single,destination
+DUNDEE,Dundee Airport,Dundee,GB,DND,56.4525,-3.02583,city_match_single,destination
+DUSSELDORF,Dusseldorf International Airport,Dusseldorf,DE,DUS,51.2895,6.76678,city_match_single,destination
+E T JOSHUA,E.T. Joshua Airport,Kingstown,VC,SVD,13.1444,-61.2126,manual_override,destination
+EAST MIDLANDS INTERNATIONAL,East Midlands Airport,Nottingham,GB,EMA,52.8311,-1.32806,fuzzy(0.46),destination
+EDINBURGH,Edinburgh Airport,Edinburgh,GB,EDI,55.95,-3.3725,city_match_single,destination
+EINDHOVEN,Eindhoven Airport,Eindhoven,NL,EIN,51.4501,5.37453,city_match_single,destination
+ENFIDHA - HAMMAMET INTL,Enfidha-Hammamet International Airport,Enfidha,TN,NBE,36.07583,10.43861,city_match_single,destination
+ENONTEKIO,Enontekio Airport,Enontekio,FI,ENF,68.3626,23.4243,city_match_single,destination
+ENTEBBE,Entebbe International Airport,Entebbe,UG,EBB,0.0424,32.4435,manual_override,destination
+ERBIL INTERNATIONAL,Erbil International Airport,Arbil,IQ,EBL,36.2376,43.9632,fuzzy(0.59),destination
+ERFURT,Erfurt Airport,Erfurt,DE,ERF,50.9798,10.9581,city_match_single,destination
+ERRACHIDIA,Moulay Ali Cherif Airport,Errachidia,MA,ERH,31.9475,-4.39833,city_match_single,destination
+ESSAOUIRA,Mogador Airport,Essaouira,MA,ESU,31.3975,-9.68167,city_match_single,destination
+EVENES,Harstad/Narvik Airport Evenes,Evenes,NO,EVE,68.4913,16.6781,city_match_single,destination
+FARNBOROUGH,Farnborough Airport,Farnborough,GB,FAB,51.2758,-0.77633,city_match_single,destination
+FARO,Faro Airport,Faro,PT,FAO,37.0144,-7.9659,manual_correction,destination
+FEZ,Fes-Saiss Airport,Fez,MA,FEZ,33.9273,-4.9778,manual_override,destination
+FIGARI,Figari Sud-Corse Airport,Figari Sud-Corse,FR,FSC,41.5006,9.09778,city_match_single,destination
+FLORENCE,Florence Municipal Airport,Florence,US,FMU,43.982818,-124.111367,city_multi_noqualifier_guess,destination
+FORLI,Forli Airport,Forli,IT,FRL,44.1948,12.0701,city_match_single,destination
+FORT LAUDERDALE,Fort Lauderdale/Hollywood International Airport,Fort Lauderdale,US,FLL,26.071667,-80.149694,city_multi_noqualifier_guess,destination
+FRANKFURT MAIN,Frankfurt Airport,Frankfurt,DE,FRA,50.0379,8.5622,manual_override,destination
+FREETOWN,Lungi International Airport,Freetown,SL,FNA,8.61644,-13.1955,city_multi_noqualifier_guess,destination
+FRIEDRICHSHAFEN,Friedrichshafen Airport,Friedrichshafen,DE,FDH,47.6713,9.51149,city_match_single,destination
+FUERTEVENTURA,Fuerteventura Airport,Fuerteventura Island,ES,FUE,28.4527,-13.8638,city_match_single,destination
+FUNCHAL,Madeira Airport,Funchal,PT,FNC,32.6979,-16.7745,city_match_single,destination
+GANDER,Gander International Airport,Gander,CA,YQX,48.9369,-54.5681,city_match_single,destination
+GATWICK,London Gatwick Airport,London,GB,LGW,51.1481,-0.19028,city_multi_noqualifier_guess,destination
+GAZIANTEP,Gaziantep International Airport,Gaziantep,TR,GZT,36.9472,37.4787,city_match_single,destination
+GDANSK,Gdansk Lech Walesa Airport,Gdansk,PL,GDN,54.3776,18.4662,manual_override,destination
+GENEVA,Geneva Cointrin International Airport,Geneva,CH,GVA,46.2381,6.10895,city_match_single,destination
+GENOA,Genoa Cristoforo Colombo Airport,Genoa,IT,GOA,44.4133,8.8375,manual_override,destination
+GEORGETOWN (GUYANA),Georgetown County Airport,Georgetown,US,GGE,33.311417,-79.320306,city_multi_qualifier(0.26),destination
+GIBRALTAR,Gibraltar Airport,Gibraltar,GI,GIB,36.1512,-5.34966,city_match_single,destination
+GIRONA,Girona Airport,Girona,ES,GRO,41.901,2.76055,city_match_single,destination
+GLASGOW,Glasgow International Airport,Glasgow,GB,GLA,55.8719,-4.43306,city_multi_noqualifier_guess,destination
+GOA,Dabolim Airport,Goa,IN,GOI,15.3808,73.8314,manual_override,destination
+GOA INTERNATIONAL,Dabolim Airport,Goa,IN,GOI,15.3808,73.8314,manual_correction,destination
+GOOSE BAY,Goose Bay Airport,Goose Bay,CA,YYR,53.3192,-60.4258,city_match_single,destination
+GOTEBORG (LANDVETTER),Goteborg Landvetter Airport,Goteborg,SE,GOT,57.6628,12.2798,manual_override,destination
+GRANADA,Federico Garcia Lorca Airport,Granada,ES,GRX,37.1887,-3.77736,city_match_single,destination
+GRAND CAYMAN,Owen Roberts International Airport,George Town,KY,GCM,19.2928,-81.3577,manual_override,destination
+GRAZ,Graz Airport,Graz,AT,GRZ,46.9911,15.4396,city_match_single,destination
+GREEN BAY WISCONSIN,Green Bay/Austin Straubel International Airport,Green Bay,US,GRB,44.484634,-88.129713,city_match_single,destination
+GRENADA,Maurice Bishop International Airport,St. George's,GD,GND,12.0042,-61.7862,manual_override,destination
+GRENOBLE,Grenoble-Isere Airport,Grenoble/Saint-Geoirs,FR,GNB,45.3629,5.32937,city_match_single,destination
+GUANGZHOU BAIYUN INTERNATIONAL,Guangzhou Baiyun International Airport,Guangzhou,CN,CAN,23.3924,113.299,city_match_single,destination
+GUERNSEY,Guernsey Airport,Guernsey,GG,GCI,49.435,-2.602,manual_override,destination
+HAHN,Frankfurt-Hahn Airport,Hahn,DE,HHN,49.9487,7.26389,city_match_single,destination
+HAIKOU,Haikou Meilan International Airport,Haikou,CN,HAK,19.9349,110.459,city_match_single,destination
+HALIFAX INT,Halifax Robert L. Stanfield International Airport,Halifax,CA,YHZ,44.8808,-63.5086,city_match_single,destination
+HALMSTAD,Halmstad Airport,Halmstad,SE,HAD,56.6911,12.8202,city_match_single,destination
+HAMBURG,Hamburg Airport,Hamburg,DE,HAM,53.6304,9.98823,city_multi_noqualifier_guess,destination
+HAMBURG (FIRKENWERDER),Hamburg-Finkenwerder Airport,Hamburg,DE,XFW,53.53528,9.83556,city_multi_qualifier(0.55),destination
+HANGZHOU,Hangzhou Xiaoshan International Airport,Hangzhou,CN,HGH,30.2295,120.434,city_match_single,destination
+HANOI,Noi Bai International Airport,Hanoi,VN,HAN,21.2212,105.807,city_match_single,destination
+HANOVER,Hannover Airport,Hannover,DE,HAJ,52.4611,9.685,manual_override,destination
+HARARE,Harare International Airport,Harare,ZW,HRE,-17.9318,31.0928,city_match_single,destination
+HASSI MESSAOUD,Oued Irara Airport,Hassi Messaoud,DZ,HME,31.673,6.14044,city_match_single,destination
+HAWARDEN,Hawarden Airport,Hawarden,GB,CEG,53.1781,-2.97778,city_match_single,destination
+HAZRAT SHAHJALAL INTERNATIONAL AIRPORT,Dhaka / Hazrat Shahjalal International Airport,Dhaka,BD,DAC,23.84335,90.39778,fuzzy(0.83),destination
+HEATHROW,London Heathrow Airport,London,GB,LHR,51.47,-0.4543,manual_override,destination
+HELSINKI,Helsinki Vantaa Airport,Helsinki,FI,HEL,60.3172,24.9633,city_match_single,destination
+HERAKLION,Heraklion International Nikos Kazantzakis Airport,Heraklion,GR,HER,35.3397,25.1803,city_match_single,destination
+HO CHI MINH CITY,Tan Son Nhat International Airport,Ho Chi Minh City,VN,SGN,10.8188,106.652,city_match_single,destination
+HONG KONG (CHEK LAP KOK),Chek Lap Kok International Airport,Hong Kong,HK,HKG,22.3089,113.915,city_match_single,destination
+HOUSTON,Conroe/North Houston Regional Airport,Houston,US,CXO,30.353396,-95.415082,city_multi_noqualifier_guess,destination
+HUMBERSIDE,Humberside Airport,Grimsby,GB,HUY,53.5744,-0.35083,fuzzy(0.42),destination
+HURGHADA,Hurghada International Airport,Hurghada,EG,HRG,27.1783,33.7994,city_match_single,destination
+HYDERABAD ( RAJIV GHANDI ),Rajiv Gandhi International Airport Shamshabad,Hyderabad,IN,HYD,17.23132,78.42986,city_multi_qualifier(0.69),destination
+IASI,Iasi Airport,Iasi,RO,IAS,47.1785,27.6206,city_match_single,destination
+IBIZA,Ibiza Airport,Ibiza,ES,IBZ,38.8729,1.37312,city_match_single,destination
+ILHA DO SAL C.VERDE,Amilcar Cabral International Airport,Sal,CV,SID,16.7414,-22.9494,manual_override,destination
+INNSBRUCK,Innsbruck Airport,Innsbruck,AT,INN,47.2602,11.344,city_match_single,destination
+INVERNESS,Inverness Airport,Inverness,GB,INV,57.5425,-4.0475,city_match_single,destination
+IRELAND WEST(KNOCK),Ireland West Knock Airport,Charleston,IE,NOC,53.9103,-8.81849,fuzzy(0.62),destination
+ISLAMABAD INTERNATIONAL AIRPORT,Islamabad International Airport,Islamabad,PK,ISB,33.54908,72.82565,city_match_single,destination
+ISLE OF MAN,Isle of Man Airport,Castletown,IM,IOM,54.0833,-4.62389,fuzzy(0.57),destination
+ISTANBUL,Istanbul Airport,Istanbul,TR,IST,41.2753,28.7519,manual_correction,destination
+ISTANBUL (SABIHA GOKCEN),Sabiha Gokcen International Airport,Istanbul,TR,SAW,40.8986,29.3092,city_multi_qualifier(0.84),destination
+ISTANBUL ATATURK,Ataturk International Airport,Istanbul,TR,ISL,40.9769,28.8146,city_multi_noqualifier_guess,destination
+IVALO,Ivalo Airport,Ivalo,FI,IVL,68.6073,27.4053,city_match_single,destination
+IZMIR (ADNAN MENDERES),Adnan Menderes International Airport,Izmir,TR,ADB,38.2924,27.157,city_multi_qualifier(0.86),destination
+JAIPUR,Jaipur International Airport,Jaipur,IN,JAI,26.8242,75.8122,city_match_single,destination
+JEDDAH,King Abdulaziz International Airport,Jeddah,SA,JED,21.6796,39.1565,city_match_single,destination
+JERBA,Djerba-Zarzis International Airport,Djerba,TN,DJE,33.8752,10.7755,manual_override,destination
+JEREZ,Jerez Airport,Jerez de la Forntera,ES,XRY,36.7446,-6.06011,city_match_single,destination
+JERSEY,Jersey Airport,Jersey,JE,JER,49.2079,-2.1954,manual_override,destination
+JOHAN ADOLF PENGEL,Johan Adolf Pengel International Airport,Zandery,SR,PBM,5.45283,-55.1878,fuzzy(0.52),destination
+JOHANNESBURG,O. R. Tambo International Airport,Johannesburg,ZA,JNB,-26.13367,28.24233,city_multi_noqualifier_guess,destination
+JORGE CHAVEZ INTERNATIONAL,Jorge Chavez International Airport,Lima,PE,LIM,-12.0219,-77.1143,fuzzy(0.68),destination
+KALAMATA,Kalamata Airport,Kalamata,GR,KLX,37.0683,22.0255,city_match_single,destination
+KARLOVY VARY,Karlovy Vary International Airport,Karlovy Vary,CZ,KLV,50.203,12.915,city_match_single,destination
+KARLSRUHE/BADEN BADEN,Karlsruhe Baden-Baden Airport,Baden-Baden,DE,FKB,48.7794,8.0805,city_match_single,destination
+KATHMANDU,Tribhuvan International Airport,Kathmandu,NP,KTM,27.6966,85.3591,city_match_single,destination
+KATOWICE,Katowice International Airport,Katowice,PL,KTW,50.4743,19.08,city_match_single,destination
+KAUNAS,Kaunas International Airport,Kaunas,LT,KUN,54.9639,24.0848,city_match_single,destination
+KAVALA,Alexander the Great International Airport,Kavala,GR,KVA,40.9133,24.6192,city_match_single,destination
+KAYSERI  ERKILET,Kayseri Erkilet Airport,Kayseri,TR,ASR,38.7704,35.4954,city_match_single,destination
+KEFALLINIA,Kefallinia Airport,Kefallinia Island,GR,EFL,38.1201,20.5005,city_match_single,destination
+KEFLAVIK,Keflavik International Airport,Reykjavik,IS,KEF,63.985,-22.6056,manual_override,destination
+KERRY COUNTY,Kerry Airport,Farranfore,IE,KIR,52.1809,-9.5238,manual_override,destination
+KHARTOUM,Khartoum International Airport,Khartoum,SD,KRT,15.59033,32.553,city_match_single,destination
+KIEV (BORISPOL),Boryspil International Airport,Kyiv,UA,KBP,50.345,30.8947,manual_override,destination
+KIEV (ZHULYANY),Kyiv Zhuliany International Airport,Kyiv,UA,IEV,50.4019,30.4519,manual_override,destination
+KIGALI,Kigali International Airport,Kigali,RW,KGL,-1.96863,30.1395,city_match_single,destination
+KINGSTON,Norman Manley International Airport,Kingston,JM,KIN,17.9357,-76.7875,city_multi_noqualifier_guess,destination
+KIRKWALL,Kirkwall Airport,Kirkwall,GB,KOI,58.9578,-2.9,manual_override,destination
+KITTILA,Kittila Airport,Kittila,FI,KTT,67.701,24.8468,city_match_single,destination
+KLAGENFURT,Klagenfurt Airport,Klagenfurt am Worthersee,AT,KLU,46.6425,14.3377,city_match_single,destination
+KOLKATA,Netaji Subhash Chandra Bose International Airport,Kolkata,IN,CCU,22.6547,88.4467,city_match_single,destination
+KOS,Kos Airport,Kos Island,GR,KGS,36.7933,27.0917,city_match_single,destination
+KOSICE,Kosice Airport,Kosice,SK,KSC,48.6631,21.2411,city_match_single,destination
+KRAKOW,Krakow John Paul II International Airport,Krakow,PL,KRK,50.0777,19.7848,manual_override,destination
+KRISTIANSAND (KJEVIK),Kristiansand Airport,Kjevik,NO,KRS,58.2042,8.08537,fuzzy(0.64),destination
+KUALA LUMPUR (SEPANG),Kuala Lumpur International Airport,Kuala Lumpur,MY,KUL,2.74558,101.71,city_match_single,destination
+KUMASI,Kumasi Airport,Kumasi,GH,KMS,6.71456,-1.59082,city_match_single,destination
+KUUSAMO,Kuusamo Airport,Kuusamo,FI,KAO,65.9876,29.2394,city_match_single,destination
+KUWAIT,Kuwait International Airport,Kuwait City,KW,KWI,29.22677,47.97995,city_match_single,destination
+LA ROCHELLE,La Rochelle-Ile de Re Airport,La Rochelle/Ile de Re,FR,LRH,46.1792,-1.19528,city_match_single,destination
+LA ROMANA,Casa De Campo International Airport,La Romana,DO,LRM,18.4507,-68.9118,city_match_single,destination
+LAGOS,Murtala Muhammed International Airport,Lagos,NG,LOS,6.57737,3.32116,city_match_single,destination
+LAHORE,Alama Iqbal International Airport,Lahore,PK,LHE,31.5216,74.4036,city_match_single,destination
+LAMETIA-TERME,Lamezia Terme Airport,Lamezia Terme,IT,SUF,38.9054,16.2423,manual_override,destination
+LARNACA,Larnaca International Airport,Larnaca,CY,LCA,34.8751,33.6249,manual_override,destination
+LAS PALMAS,Brigadeiro Lysias Rodrigues Airport,Palmas,BR,PMW,-10.2915,-48.357,city_match_single,destination
+LAS VEGAS,Harry Reid International Airport,Las Vegas,US,LAS,36.080343,-115.152449,city_multi_noqualifier_guess,destination
+LASHAM,Lasham Airfield,Lasham,GB,QLA,51.1875,-1.0328,manual_override,destination
+LE TOUQUET,Le Touquet-Cote d'Opale Airport,Le Touquet-Paris-Plage,FR,LTQ,50.5174,1.62059,city_match_single,destination
+LEEDS BRADFORD,Leeds Bradford Airport,Leeds,GB,LBA,53.8659,-1.66057,city_multi_noqualifier_guess,destination
+LEIPZIG,Leipzig Halle Airport,Leipzig,DE,LEJ,51.4324,12.2416,city_match_single,destination
+LEMNOS,Lemnos International Airport,Lemnos,GR,LXS,39.9171,25.2361,manual_override,destination
+LEON,Leon Airport,Leon,ES,LEN,42.589,-5.65556,city_match_single,destination
+LIBERIA,Daniel Oduber Quiros International Airport,Liberia,CR,LIR,10.5933,-85.5444,city_match_single,destination
+LIEGE,Liege Airport,Liege,BE,LGG,50.3811,5.2634,city_match_single,destination
+LILLE,Lille-Lesquin Airport,Lille/Lesquin,FR,LIL,50.5619,3.08944,city_match_single,destination
+LIMOGES,Limoges Airport,Limoges/Bellegarde,FR,LIG,45.8628,1.17944,city_match_single,destination
+LINZ,Linz Airport,Linz,AT,LNZ,48.2332,14.1875,city_match_single,destination
+LISBON,Lisbon Portela Airport,Lisbon,PT,LIS,38.7813,-9.13592,city_match_single,destination
+LIVERPOOL (JOHN LENNON),Liverpool John Lennon Airport,Liverpool,GB,LPL,53.3336,-2.84972,city_match_single,destination
+LJUBLJANA,Ljubljana Joze Pucnik Airport,Ljubljana,SI,LJU,46.2237,14.4576,city_match_single,destination
+LODZ LUBLINEK,Lodz Wladyslaw Reymont Airport,Lodz,PL,LCJ,51.7219,19.3981,manual_override,destination
+LONDON CITY,London City Airport,London,GB,LCY,51.5053,0.05528,city_multi_noqualifier_guess,destination
+LONGYEARBYEN (SVALBARD),Svalbard Airport Longyear,Longyearbyen,NO,LYR,78.2461,15.4656,city_match_single,destination
+LOS ANGELES INTERNATIONAL,Los Angeles International Airport,Los Angeles,US,LAX,33.942496,-118.408049,city_multi_noqualifier_guess,destination
+LUBECK,Lubeck Blankensee Airport,Lubeck,DE,LBC,53.8054,10.7192,city_match_single,destination
+LUBLIN (PORT LOTNICZY),Lublin Airport,Lublin,PL,LUZ,51.24028,22.71361,city_match_single,destination
+LULEA,Lulea Airport,Lulea,SE,LLA,65.5438,22.122,city_match_single,destination
+LUTON,London Luton Airport,London,GB,LTN,51.8747,-0.3683,manual_override,destination
+LUXEMBOURG,Luxembourg-Findel International Airport,Luxembourg,LU,LUX,49.3724,6.1216,city_match_single,destination
+LUXOR,Luxor International Airport,Luxor,EG,LXR,25.671,32.7066,city_match_single,destination
+LVOV,Lviv Danylo Halytskyi International Airport,Lviv,UA,LWO,49.8125,23.9561,manual_override,destination
+LYON,Lyon Saint-Exupery Airport,Lyon,FR,LYS,45.7264,5.09083,city_multi_noqualifier_guess,destination
+LYON(BRON),Aix-en-Provence (BA 114) Airport,Lyon,FR,QXB,43.5056,5.36778,city_multi_qualifier(0.18),destination
+MAASTRICHT,Maastricht Aachen Airport,Maastricht,NL,MST,50.9117,5.77014,city_match_single,destination
+MADRID,Madrid Barajas International Airport,Madrid,ES,MAD,40.4936,-3.56676,city_multi_noqualifier_guess,destination
+MAHON,Menorca Airport,Mahon,ES,MAH,39.8626,4.2186,manual_override,destination
+MALAGA,Malaga Airport,Malaga,ES,AGP,36.6749,-4.49911,city_match_single,destination
+MALE INTERNATIONAL,Velana International Airport,Male,MV,MLE,4.1918,73.529,manual_correction,destination
+MALMO,Malmo Sturup Airport,Malmo,SE,MMX,55.53631,13.3762,city_match_single,destination
+MALTA,Malta Airport,Malta,US,MLK,48.366944,-107.919333,city_match_single,destination
+MANCHESTER,Manchester Airport,Manchester,GB,MAN,53.3537,-2.27495,city_multi_noqualifier_guess,destination
+MANILA,Ninoy Aquino International Airport,Manila,PH,MNL,14.5086,121.02,city_multi_noqualifier_guess,destination
+MARRAKESH,Marrakesh Menara Airport,Marrakesh,MA,RAK,31.6069,-8.0363,manual_override,destination
+MARSA ALAM,Marsa Alam International Airport,Marsa Alam,EG,RMF,25.5571,34.5837,city_match_single,destination
+MARSEILLE,Marseille Provence Airport,Marseille,FR,MRS,43.43927,5.22142,city_match_single,destination
+MAURITIUS,Sir Seewoosagur Ramgoolam International Airport,Port Louis,MU,MRU,-20.4302,57.6836,manual_override,destination
+MEDINA,Prince Mohammad Bin Abdulaziz Airport,Medina,SA,MED,24.5534,39.7051,city_match_single,destination
+MELBOURNE,Melbourne Orlando International Airport,Melbourne,US,MLB,28.10275,-80.64525,city_multi_noqualifier_guess,destination
+MELBOURNE FLATS,Melbourne Orlando International Airport,Melbourne,US,MLB,28.10275,-80.64525,city_multi_noqualifier_guess,destination
+MEMMINGEN ALLGAU,Memmingen Allgau Airport,Memmingen,DE,FMM,47.9888,10.2395,city_match_single,destination
+MEMPHIS,Frederick W Smith International Airport,Memphis,US,MEM,35.042411,-89.976679,city_match_single,destination
+MEXICO CITY,Licenciado Benito Juarez International Airport,Mexico City,MX,MEX,19.4363,-99.0721,city_match_single,destination
+MIAMI INTERNATIONAL,Miami International Airport,Miami,US,MIA,25.795361,-80.290116,city_multi_noqualifier_guess,destination
+MIKONOS,Mykonos Island National Airport,Mykonos,GR,JMK,37.4351,25.3481,manual_override,destination
+MILAN (LINATE),Linate Airport,Milan,IT,LIN,45.4451,9.27674,city_multi_qualifier(0.90),destination
+MILAN (MALPENSA),Malpensa International Airport,Milan,IT,MXP,45.6306,8.72811,city_multi_qualifier(0.72),destination
+MINNEAPOLIS-ST PAUL,Minneapolis-St Paul International/Wold-Chamberlain Airport,Minneapolis,US,MSP,44.881972,-93.221778,city_multi_noqualifier_guess,destination
+MONTEGO BAY,Sangster International Airport,Montego Bay,JM,MBJ,18.5037,-77.9134,city_match_single,destination
+MONTPELLIER,Montpellier-Mediterranee Airport,Montpellier/Mediterranee,FR,MPL,43.5762,3.96301,city_match_single,destination
+MONTREAL (DORVAL),Montreal-Trudeau International Airport,Montreal,CA,YUL,45.4706,-73.7408,manual_override,destination
+MOSCOW (DOMODEDOVO),Domodedovo International Airport,Moscow,RU,DME,55.4088,37.9063,city_multi_qualifier(0.78),destination
+MOSCOW (SHEREMETYEVO),Sheremetyevo International Airport,Moscow,RU,SVO,55.9726,37.4146,city_multi_qualifier(0.82),destination
+MOSTAR,Mostar International Airport,Mostar,BA,OMO,43.2829,17.8459,city_match_single,destination
+MUMBAI,Chhatrapati Shivaji International Airport,Mumbai,IN,BOM,19.0887,72.8679,city_match_single,destination
+MUNICH,Munich International Airport,Munich,DE,MUC,48.3538,11.7861,city_match_single,destination
+MUNSTER-OSNABRUCK,Munster Osnabruck Airport,Munster,DE,FMO,52.1346,7.68483,city_match_single,destination
+MURCIA INTERNATIONAL,Region de Murcia International Airport,Murcia,ES,RMU,37.8039,-1.1119,manual_correction,destination
+MUSCAT,Muscat International Airport,Muscat,OM,MCT,23.5933,58.2844,city_match_single,destination
+MYTILINI,Mytilene International Airport,Mytilene,GR,MJT,39.0567,26.5983,manual_override,destination
+NAGOYA,Nagoya Airport,Nagoya,JP,NKM,35.255,136.924,city_match_single,destination
+NAIROBI,Jomo Kenyatta International Airport,Nairobi,KE,NBO,-1.31924,36.9278,city_multi_noqualifier_guess,destination
+NANTES,Nantes Atlantique Airport,Nantes,FR,NTE,47.1532,-1.61073,city_match_single,destination
+NAPLES,Naples Municipal Airport,Naples,US,APF,26.152441,-81.775639,city_match_single,destination
+NASHVILLE METROPOLITAN,Nashville International Airport,Nashville,US,BNA,36.124475,-86.678181,city_match_single,destination
+NASSAU,Lynden Pindling International Airport,Nassau,BS,NAS,25.039,-77.4662,city_multi_noqualifier_guess,destination
+NDJAMENA,N'Djamena International Airport,N'Djamena,TD,NDJ,12.1337,15.0342,manual_override,destination
+NEA ANCHIALOS,Nea Anchialos Airport,Nea Anchialos,GR,VOL,39.2196,22.7943,city_match_single,destination
+NEOM BAY,Neom Bay Airport,Neom Bay,SA,NUM,27.92383,35.29383,city_match_single,destination
+NEVSEHIR KAPADOKYA,Nevsehir Kapadokya Airport,Nevsehir,TR,NAV,38.7719,34.5342,manual_override,destination
+NEW ORLEANS,Louis Armstrong New Orleans International Airport,New Orleans,US,MSY,29.993272,-90.259028,city_multi_noqualifier_guess,destination
+NEW YORK (JF KENNEDY),John F Kennedy International Airport,New York,US,JFK,40.639928,-73.778692,city_multi_qualifier(0.73),destination
+NEW YORK (NEWARK),New York Skyports Inc Seaplane Base,New York,US,NYS,40.733991,-73.972916,city_multi_qualifier(0.24),destination
+NEWBURGH/USA,New York Stewart International Airport,Newburgh,US,SWF,41.5041,-74.1048,manual_override,destination
+NEWCASTLE,Newcastle Airport,Newcastle,GB,NCL,55.0375,-1.69167,city_multi_noqualifier_guess,destination
+NEWQUAY,Newquay Cornwall Airport,Newquay,GB,NQY,50.4406,-4.99541,city_match_single,destination
+NICE,Nice-Cote d'Azur Airport,Nice,FR,NCE,43.6584,7.21587,city_match_single,destination
+NIEDERRHEIN,Niederrhein Airport,Weeze,DE,NRN,51.6024,6.14217,fuzzy(0.44),destination
+NIMES,Nimes-Arles-Camargue Airport,Nimes/Garons,FR,FNI,43.7574,4.41635,city_match_single,destination
+NORWICH,Norwich International Airport,Norwich,GB,NWI,52.6758,1.28278,city_multi_noqualifier_guess,destination
+NUREMBERG,Nuremberg Airport,Nuremberg,DE,NUE,49.4987,11.0669,city_match_single,destination
+NURSULTAN NAZERBAYEV INTERNATIONAL,Nursultan Nazarbayev International Airport,Astana,KZ,NQZ,51.0222,71.4669,fuzzy(0.52),destination
+OHRID,Ohrid St. Paul the Apostle Airport,Ohrid,MK,OHD,41.18,20.7423,city_match_single,destination
+OLBIA,Olbia / Costa Smeralda Airport,Olbia,IT,OLB,40.8987,9.51763,city_match_single,destination
+OPORTO (PORTUGAL),Francisco Sa Carneiro Airport,Porto,PT,OPO,41.2481,-8.6814,manual_override,destination
+ORADEA,Oradea International Airport,Oradea,RO,OMR,47.0253,21.9025,city_match_single,destination
+OREBRO,Orebro Airport,Orebro,SE,ORB,59.2237,15.038,city_match_single,destination
+ORLANDO,Orlando International Airport,Orlando,US,MCO,28.429389,-81.309,city_multi_noqualifier_guess,destination
+OSIJEK,Osijek Airport,Osijek,HR,OSI,45.4627,18.8102,city_match_single,destination
+OSLO (GARDERMOEN),Oslo Gardermoen Airport,Oslo,NO,OSL,60.1939,11.1004,city_match_single,destination
+OSTEND,Ostend-Bruges International Airport,Ostend,BE,OST,51.1156,2.5144,city_match_single,destination
+OSTRAVA,Ostrava Leos Janacek Airport,Ostrava,CZ,OSR,49.6963,18.1111,city_match_single,destination
+OTTAWA INTERNATIONAL,Ottawa / Macdonald-Cartier International Airport,Ottawa,CA,YOW,45.3225,-75.6692,city_multi_noqualifier_guess,destination
+OUARZAZATE,Ouarzazate Airport,Ouarzazate,MA,OZZ,30.9391,-6.90943,city_match_single,destination
+PADERBORN,Paderborn Lippstadt Airport,Paderborn,DE,PAD,51.6141,8.61632,city_match_single,destination
+PAJALA YLLAS,Pajala Airport,,SE,PJA,67.2456,23.0689,fuzzy(0.45),destination
+PALANGA,Palanga International Airport,Palanga,LT,PLQ,55.9732,21.0939,city_match_single,destination
+PALERMO,Palermo / Punta Raisi Airport,Palermo,IT,PMO,38.176,13.091,city_match_single,destination
+PALMA DE MALLORCA,Palma De Mallorca Airport,Palma De Mallorca,ES,PMI,39.5517,2.73881,city_match_single,destination
+PAPHOS,Paphos International Airport,Paphos,CY,PFO,34.718,32.4857,city_match_single,destination
+PARIS (CHARLES DE GAULLE),Charles de Gaulle International Airport,Paris,FR,CDG,49.0128,2.55,city_multi_qualifier(0.91),destination
+PARIS (LE BOURGET),Paris-Le Bourget Airport,Paris,FR,LBG,48.9694,2.44139,city_multi_qualifier(0.89),destination
+PARIS (ORLY),Paris-Orly Airport,Paris,FR,ORY,48.7253,2.35944,city_multi_qualifier(0.66),destination
+PAU,Pau Pyrenees Airport,Pau/Pyrenees (Uzein),FR,PUF,43.38,-0.41861,city_multi_noqualifier_guess,destination
+PERPIGNAN,Perpignan-Rivesaltes (Llabanere) Airport,Perpignan/Rivesaltes,FR,PGF,42.7404,2.87067,city_match_single,destination
+PERTH (AUSTRALIA),Perth International Airport,Perth,AU,PER,-31.9403,115.967,city_multi_qualifier(0.28),destination
+PERUGIA,Perugia / San Egidio Airport,Perugia,IT,PEG,43.0959,12.5132,city_match_single,destination
+PESCARA,Pescara International Airport,Pescara,IT,PSR,42.4317,14.1811,city_match_single,destination
+PHILADELPHIA INTERNATIONAL,Philadelphia International Airport,Philadelphia,US,PHL,39.872084,-75.240663,city_multi_noqualifier_guess,destination
+PHOENIX,Phoenix Sky Harbor International Airport,Phoenix,US,PHX,33.434278,-112.011583,city_multi_noqualifier_guess,destination
+PHUKET,Phuket International Airport,Phuket,TH,HKT,8.1132,98.3169,city_match_single,destination
+PISA,Pisa / San Giusto - Galileo Galilei International Airport,Pisa,IT,PSA,43.6839,10.3927,city_match_single,destination
+PITTSBURGH,Pittsburgh International Airport,Pittsburgh,US,PIT,40.491417,-80.232694,city_multi_noqualifier_guess,destination
+PLOVDIV,Plovdiv International Airport,Plovdiv,BG,PDV,42.0678,24.8508,city_match_single,destination
+PODGORICA,Podgorica Airport,Podgorica,ME,TGD,42.3594,19.2519,city_match_single,destination
+POITIERS,Poitiers-Biard Airport,Poitiers/Biard,FR,PIS,46.5877,0.30667,city_match_single,destination
+PORT OF SPAIN,Piarco International Airport,Port of Spain,TT,POS,10.5954,-61.3372,city_match_single,destination
+PORT SUDAN,Port Sudan New International Airport,Port Sudan,SD,PZU,19.4336,37.2341,city_match_single,destination
+PORTLAND (OREGON),Portland International Airport,Portland,US,PDX,45.588709,-122.596869,city_multi_qualifier(0.28),destination
+PORTO SANTO,Porto Santo Airport,Porto Santo,PT,PXO,33.0734,-16.35,city_match_single,destination
+POZNAN,Poznan-Lawica Airport,Poznan,PL,POZ,52.421,16.8263,manual_override,destination
+PRAGUE,Václav Havel Airport,Prague,CZ,PRG,50.1008,14.26,city_match_single,destination
+PRAIA,Praia International Airport,Praia,CV,RAI,14.9245,-23.4935,city_match_single,destination
+PRESTWICK,Glasgow Prestwick Airport,Prestwick,GB,PIK,55.5094,-4.5867,manual_override,destination
+PREVEZA,Aktion National Airport,Preveza/Lefkada,GR,PVK,38.9255,20.7653,city_match_single,destination
+PRISTINA,Pristina International Airport,Pristina,XK,PRN,42.5728,21.0356,manual_override,destination
+PROVIDENCIALES,Providenciales Airport,Providenciales Island,TC,PLS,21.7736,-72.2659,city_match_single,destination
+PUERTO VALLARTA,Licenciado Gustavo Diaz Ordaz International Airport,Puerto Vallarta,MX,PVR,20.6801,-105.254,city_match_single,destination
+PULA,Pula Airport,Pula,HR,PUY,44.8935,13.9222,city_match_single,destination
+PUNTA CANA,Punta Cana International Airport,Punta Cana,DO,PUJ,18.5674,-68.3634,city_match_single,destination
+QINGDAO,Qingdao/Jiaodong Airport,Qingdao,CN,TAO,36.365,120.09833,city_match_single,destination
+QUEBEC,Québec City Jean Lesage International Airport,Quebec City,CA,YQB,46.7911,-71.3933,city_match_single,destination
+QUIMPER,Quimper-Cornouaille Airport,Quimper/Pluguffan,FR,UIP,47.975,-4.16779,city_match_single,destination
+RABAT,Rabat-Sale Airport,Rabat,MA,RBA,34.0515,-6.75152,city_match_single,destination
+RADOM SADKOW,Radom-Sadkow Airport,,PL,RDO,51.38883,21.21167,fuzzy(0.70),destination
+RALEIGH,Raleigh-Durham International Airport,Raleigh/Durham,US,RDU,35.877639,-78.787472,city_match_single,destination
+RAMON,Mitzpe Ramon Airfield,Mitzpe Ramon,IL,MIP,30.6506,34.8069,city_multi_noqualifier_guess,destination
+REGGIO,Reggio Calabria Airport,Reggio Calabria,IT,REG,38.0712,15.6516,city_match_single,destination
+RENNES,Rennes-Saint-Jacques Airport,Rennes/Saint-Jacques,FR,RNS,48.0695,-1.73479,city_match_single,destination
+REUS,Reus Air Base,Reus,ES,REU,41.1474,1.16717,city_match_single,destination
+RHODES,Rhodes International Airport (Diagoras),Rhodes,GR,RHO,36.4054,28.0862,manual_override,destination
+RIGA,Riga International Airport,Riga,LV,RIX,56.9236,23.9711,city_match_single,destination
+RIJEKA,Rijeka Airport,Rijeka,HR,RJK,45.2169,14.5703,city_match_single,destination
+RIMINI,Rimini / Miramare - Federico Fellini International Airport,Rimini,IT,RMI,44.0203,12.6117,city_match_single,destination
+RIO DE JANEIRO (GALEAO),Galeao - Antonio Carlos Jobim International Airport,Rio De Janeiro,BR,GIG,-22.81,-43.25056,city_multi_qualifier(0.52),destination
+RIYADH,King Khaled International Airport,Riyadh,SA,RUH,24.9576,46.6988,city_multi_noqualifier_guess,destination
+RODEZ,Rodez-Marcillac Airport,Rodez/Marcillac,FR,RDZ,44.4079,2.48267,city_match_single,destination
+ROME (CIAMPINO),Rome State Airport,Rome,US,REO,42.57766,-117.88543,city_multi_qualifier(0.23),destination
+ROME (FIUMICINO),Leonardo Da Vinci (Fiumicino) International Airport,Rome,IT,FCO,41.8045,12.2508,city_multi_qualifier(0.61),destination
+ROTTERDAM,Rotterdam Airport,Rotterdam,NL,RTM,51.9569,4.43722,city_match_single,destination
+ROVANIEMI,Rovaniemi Airport,Rovaniemi,FI,RVN,66.5648,25.8304,city_match_single,destination
+RZESZOW,Rzeszow-Jasionka Airport,Rzeszow,PL,RZE,50.11,22.019,city_match_single,destination
+SAINT HELENA,Saint Helena Airport,Saint Helena,SH,HLE,-15.962108,-5.645901,city_match_single,destination
+SALAMANCA,Salamanca Airport,Salamanca,ES,SLM,40.9521,-5.50199,city_match_single,destination
+SALERNO COSTA AMALFI,Salerno / Pontecagnano Airport,Salerno,IT,QSR,40.6204,14.9113,city_multi_noqualifier_guess,destination
+SALONIKA,Thessaloniki Makedonia Airport,Thessaloniki,GR,SKG,40.5197,22.9709,manual_override,destination
+SALT LAKE CITY,Salt Lake City International Airport,Salt Lake City,US,SLC,40.788393,-111.977773,city_match_single,destination
+SALZBURG,Salzburg Airport,Salzburg,AT,SZG,47.7933,13.0043,city_match_single,destination
+SAMOS,Samos Airport,Samos Island,GR,SMI,37.69,26.9117,city_match_single,destination
+SAN DIEGO,San Diego International Airport,San Diego,US,SAN,32.733563,-117.189663,city_multi_noqualifier_guess,destination
+SAN FRANCISCO,San Francisco International Airport,San Francisco,US,SFO,37.618806,-122.375417,city_match_single,destination
+SAN JOSE,Norman Y Mineta San Jose International Airport,San Jose,US,SJC,37.362995,-121.928621,city_multi_noqualifier_guess,destination
+SAN JOSE COST RICA,Norman Y Mineta San Jose International Airport,San Jose,US,SJC,37.362995,-121.928621,city_multi_noqualifier_guess,destination
+SAN SEBASTIAN,San Sebastian Airport,Hondarribia,ES,EAS,43.3565,-1.79061,fuzzy(0.53),destination
+SANDEFJORD(TORP),Sandefjord Airport Torp,Torp,NO,TRF,59.1867,10.2586,fuzzy(0.68),destination
+SANTA CRUZ DE LA PALMA,La Palma Airport,Santa Cruz de la Palma,ES,SPC,28.6265,-17.7556,manual_correction,destination
+SANTANDER,Santander Airport,Santander,ES,SDR,43.4271,-3.82001,city_match_single,destination
+SANTIAGO DE CHILE,Arturo Merino Benitez International Airport,Santiago,CL,SCL,-33.3898,-70.7946,manual_correction,destination
+SANTIAGO DE COMPOSTELA (SPAIN),Santiago de Compostela Airport,Santiago de Compostela,ES,SCQ,42.8963,-8.41514,city_match_single,destination
+SANYA PHOENIX INTERNATIONAL,Sanya Phoenix International Airport,Sanya,CN,SYX,18.3029,109.412,city_multi_noqualifier_guess,destination
+SAO PAULO (GUARULHOS),Guarulhos - Governador Andre Franco Montoro International Airport,Sao Paulo,BR,GRU,-23.43556,-46.47306,city_multi_qualifier(0.55),destination
+SARAJEVO,Sarajevo International Airport,Sarajevo,BA,SJJ,43.8246,18.3315,city_match_single,destination
+SATU MARE,Satu Mare Airport,Satu Mare,RO,SUJ,47.7033,22.8857,city_match_single,destination
+SCANDINAVIAN MOUNTAINS AIRPORT,Sälen/Scandinavian Mountains Airport,Rörbäcksnäs,SE,SCR,61.164667,12.833833,fuzzy(0.53),destination
+SEATTLE (TACOMA),Seattle-Tacoma International Airport,Seattle,US,SEA,47.449889,-122.311778,city_multi_qualifier(0.59),destination
+SEOUL (INCHEON),Incheon International Airport,Seoul,KR,ICN,37.4691,126.451,city_multi_qualifier(0.69),destination
+SEVILLE,Seville Airport,Seville,ES,SVQ,37.418,-5.8931,manual_override,destination
+SHANGHAI (PU DONG),Shanghai Pudong International Airport,Shanghai,CN,PVG,31.1434,121.805,city_multi_qualifier(0.57),destination
+SHANNON,Shannon Airport,Shannon,IE,SNN,52.702,-8.92482,city_match_single,destination
+SHARJAH,Sharjah International Airport,Sharjah,AE,SHJ,25.3286,55.5172,city_match_single,destination
+SHARM EL SHEIKH (OPHIRA),Sharm El Sheikh International Airport,Sharm el-Sheikh,EG,SSH,27.9773,34.395,city_match_single,destination
+SHENZHEN (HUANGTIAN),Shenzhen Bao'an International Airport,Shenzhen,CN,SZX,22.6393,113.811,city_match_single,destination
+SIBIU,Sibiu International Airport,Sibiu,RO,SBZ,45.7856,24.0913,city_match_single,destination
+SINGAPORE,Singapore Changi International Airport,Singapore,SG,SIN,1.35019,103.994,city_match_single,destination
+SION,Sion Airport,Sion,CH,SIR,46.2196,7.32676,city_match_single,destination
+SKIATHOS,Skiathos Island National Airport,Skiathos,GR,JSI,39.1771,23.5037,city_match_single,destination
+SKOPJE,Skopje International Airport,Skopje,MK,SKP,41.9616,21.6214,city_match_single,destination
+SOFIA,Sofia Airport,Sofia,BG,SOF,42.69669,23.41144,city_match_single,destination
+SONDRE STROMFJORD,Kangerlussuaq Airport,Kangerlussuaq,GL,SFJ,67.0122,-50.7116,manual_override,destination
+SOUTHAMPTON,Southampton Airport,Southampton,GB,SOU,50.9503,-1.3568,city_match_single,destination
+SOUTHEND,Southend Airport,Southend,GB,SEN,51.5714,0.69556,city_match_single,destination
+SPHINX INTERNATIONAL,Sphinx International Airport,Giza,EG,SPX,30.11472,30.89333,fuzzy(0.60),destination
+SPLIT,Split Airport,Split,HR,SPU,43.5389,16.298,city_match_single,destination
+ST ETIENNE,Saint-Etienne-Boutheon Airport,Saint-Etienne,FR,EBU,45.5407,4.2957,manual_override,destination
+ST JOHNS,St Johns Industrial Air Park,St Johns,US,SJN,34.518556,-109.37875,city_match_single,destination
+ST KITTS,Robert L. Bradshaw International Airport,Basseterre,KN,SKB,17.3111,-62.7186,manual_override,destination
+ST LOUIS (LAMBERT),St Louis Lambert International Airport,St Louis,US,STL,38.748698,-90.370026,city_multi_qualifier(0.61),destination
+ST LUCIA (HEWANORRA),Hewanorra International Airport,Vieux Fort,LC,UVF,13.7332,-60.9526,manual_override,destination
+STANSTED,London Stansted Airport,London,GB,STN,51.886,0.2389,manual_override,destination
+STAVANGER,Stavanger Airport Sola,Stavanger,NO,SVG,58.8767,5.63778,city_match_single,destination
+STOCKHOLM (ARLANDA),Stockholm-Arlanda Airport,Stockholm,SE,ARN,59.6519,17.9186,city_multi_qualifier(0.74),destination
+STRASBOURG,Strasbourg Airport,Strasbourg,FR,SXB,48.5383,7.62823,city_match_single,destination
+STUTTGART,Stuttgart Airport,Stuttgart,DE,STR,48.6899,9.22196,city_multi_noqualifier_guess,destination
+SUCEAVA,Suceava Stefan cel Mare Airport,Suceava,RO,SCV,47.6875,26.3541,city_match_single,destination
+SULAYMANIYAH INT,Sulaymaniyah International Airport,Sulaymaniyah,IQ,ISU,35.56175,45.31674,city_match_single,destination
+SUMBURGH,Sumburgh Airport,Sumburgh,GB,LSI,59.8788,-1.2956,manual_override,destination
+SYDNEY,Sydney Kingsford Smith International Airport,Sydney,AU,SYD,-33.9461,151.177,city_multi_noqualifier_guess,destination
+SYLHET,Osmany International Airport,Sylhet,BD,ZYL,24.9632,91.8668,city_match_single,destination
+SZCZECIN (GOLENOW),Szczecin-Goleniow Airport,Szczecin,PL,SZZ,53.5847,14.9022,manual_override,destination
+SZYMANY (MAZURY),Olsztyn-Mazury Airport,Szymany,PL,SZY,53.48194,20.93778,city_match_single,destination
+TABA,Taba International Airport,Taba,EG,TCP,29.5878,34.7781,city_match_single,destination
+TAIPEI,Taiwan Taoyuan International Airport,Taipei,TW,TPE,25.0777,121.233,city_match_single,destination
+TALLIN,Tallinn Airport,Tallinn,EE,TLL,59.4133,24.8328,manual_override,destination
+TAMPA,Tampa International Airport,Tampa,US,TPA,27.975469,-82.533248,city_multi_noqualifier_guess,destination
+TAMPERE,Tampere-Pirkkala Airport,Tampere / Pirkkala,FI,TMP,61.4141,23.6044,city_match_single,destination
+TANGIERS (IBN BATUTA),Ibn Batouta Airport,Tangier,MA,TNG,35.7269,-5.9169,manual_override,destination
+TARBES-LOURDES INTERNATIONAL,Tarbes-Lourdes-Pyrenees Airport,Tarbes,FR,LDE,43.1787,0.0064,manual_override,destination
+TASHKENT,Tashkent International Airport,Tashkent,UZ,TAS,41.2579,69.2812,city_match_single,destination
+TATRY-POPRAD,Poprad-Tatry Airport,Poprad,SK,TAT,49.0736,20.2411,city_match_single,destination
+TBILISI,Tbilisi International Airport,Tbilisi,GE,TBS,41.6692,44.9547,city_match_single,destination
+TEESSIDE INTERNATIONAL AIRPORT,Teesside International Airport,Darlington,GB,MME,54.5092,-1.4294,manual_correction,destination
+TEHRAN IMAM KHOMEINI,Imam Khomeini International Airport,Tehran,IR,IKA,35.4161,51.1522,city_multi_noqualifier_guess,destination
+TEL AVIV,Ben Gurion International Airport,Tel Aviv,IL,TLV,32.0114,34.8867,city_match_single,destination
+TENERIFE (SURREINA SOFIA),Tenerife South Airport,Tenerife Island,ES,TFS,28.0445,-16.5725,city_multi_qualifier(0.33),destination
+TETERBORO,Teterboro Airport,Teterboro,US,TEB,40.850102,-74.060833,city_match_single,destination
+TETOUAN,Tetouan Sania Ramel Airport,Tetouan,MA,TTU,35.5944,-5.32,manual_override,destination
+THIRA (SANTORINI),Santorini (Thira) National Airport,Santorini,GR,JTR,36.3992,25.4793,manual_override,destination
+TIANJIN,Tianjin Binhai International Airport,Tianjin,CN,TSN,39.1244,117.346,city_match_single,destination
+TIMISOARA,Timisoara Traian Vuia Airport,Timisoara,RO,TSR,45.8099,21.3379,city_match_single,destination
+TIRANA,Tirana International Airport Mother Teresa,Tirana,AL,TIA,41.4147,19.7206,city_match_single,destination
+TIRGU MURES,Targu Mures Transilvania Airport,Targu Mures,RO,TGM,46.4677,24.4125,manual_override,destination
+TIVAT,Tivat Airport,Tivat,ME,TIV,42.4047,18.7233,city_match_single,destination
+TOBAGO,A.N.R. Robinson International Airport,Scarborough,TT,TAB,11.1497,-60.8322,manual_override,destination
+TOKYO (HANEDA),Narita International Airport,Tokyo,JP,NRT,35.7647,140.386,city_multi_qualifier(0.24),destination
+TOKYO (NARITA),Narita International Airport,Tokyo,JP,NRT,35.7647,140.386,city_multi_qualifier(0.65),destination
+TORONTO,Billy Bishop Toronto City Airport,Toronto,CA,YTZ,43.6275,-79.3962,city_match_single,destination
+TOULON / HYERES,Toulon-Hyeres Airport,Toulon/Hyeres/Le Palyvestre,FR,TLN,43.0973,6.14603,city_match_single,destination
+TOULOUSE (BLAGNAC),Toulouse-Blagnac Airport,Toulouse/Blagnac,FR,TLS,43.6291,1.36382,city_match_single,destination
+TOURS,Tours-Val-de-Loire Airport,Tours/Val de Loire (Loire Valley),FR,TUF,47.4322,0.72761,city_match_single,destination
+TRAPANI,Trapani / Birgi Airport,Trapani,IT,TPS,37.9114,12.488,city_match_single,destination
+TREVISO,Treviso / Sant'Angelo Airport,Treviso,IT,TSF,45.6484,12.1944,city_match_single,destination
+TRIESTE (RONCHI DEI LEGIONARI),Trieste / Ronchi Dei Legionari,Trieste,IT,TRS,45.8275,13.4722,city_match_single,destination
+TROMSOE,Tromso Airport,Tromso,NO,TOS,69.6833,18.9189,manual_override,destination
+TRONDHEIM (VAERNES),Trondheim Airport Vaernes,Trondheim,NO,TRD,63.4578,10.924,city_match_single,destination
+TUNIS,Tunis Carthage International Airport,Tunis,TN,TUN,36.851,10.2272,city_match_single,destination
+TURIN,Turin Airport,Turin,IT,TRN,45.2008,7.6497,manual_override,destination
+TUZLA,Tuzla International Airport,Tuzla,BA,TZL,44.4587,18.7248,city_match_single,destination
+VAGAR,Vagar Airport,Vagar,FO,FAE,62.0636,-7.27722,city_match_single,destination
+VALENCIA,Arturo Michelena International Airport,Valencia,VE,VLN,10.14973,-67.9284,city_multi_noqualifier_guess,destination
+VALLADOLID,Valladolid Airport,Valladolid,ES,VLL,41.7061,-4.85194,city_match_single,destination
+VANCOUVER,Vancouver Harbour Airport,Vancouver,CA,CXH,49.28333,-123.1,city_match_single,destination
+VANNES-MEUCON,Vannes-Meucon Airport,Vannes/Meucon,FR,VNE,47.7233,-2.71856,city_match_single,destination
+VARNA,Varna Airport,Varna,BG,VAR,43.2321,27.8251,city_match_single,destination
+VASTERAS,Stockholm Vasteras Airport,Stockholm / Vasteras,SE,VST,59.5894,16.6336,city_match_single,destination
+VAXJO,Vaxjo Kronoberg Airport,Vaxjo,SE,VXO,56.9291,14.728,city_match_single,destination
+VENICE,Venice Municipal Airport,Venice,US,VNC,27.071268,-82.440033,city_match_single,destination
+VERONA VILLAFRANCA,Verona / Villafranca Airport,Verona,IT,VRN,45.3957,10.8885,city_match_single,destination
+VIENNA,Vienna International Airport,Vienna,AT,VIE,48.1103,16.5697,city_match_single,destination
+VIGO,Vigo Airport,Vigo,ES,VGO,42.2318,-8.62677,city_match_single,destination
+VILLA CISNEROS W SAHARA,Dakhla Airport,Dakhla,EH,VIL,23.7183,-15.932,manual_override,destination
+VILNIUS,Vilnius International Airport,Vilnius,LT,VNO,54.6341,25.2858,city_match_single,destination
+VITORIA,Eurico de Aguiar Salles Airport,Vitoria,BR,VIX,-20.25806,-40.28639,city_match_single,destination
+WARSAW (CHOPIN),Warsaw Chopin Airport,Warsaw,PL,WAW,52.1657,20.9671,city_multi_qualifier(0.74),destination
+WARSAW (MODLIN MASOVIA),Warsaw Modlin Airport,Warsaw,PL,WMI,52.4511,20.6518,city_multi_qualifier(0.81),destination
+WASHINGTON (DULLES),Washington Dulles International Airport,Washington,US,IAD,38.947456,-77.459929,city_multi_qualifier(0.57),destination
+WROCLAW,Wroclaw Copernicus Airport,Wroclaw,PL,WRO,51.1027,16.8858,manual_override,destination
+WUHAN TIANHE INTERNATIONAL,Wuhan Tianhe International Airport,Wuhan,CN,WUH,30.7838,114.208,city_match_single,destination
+XIAN XIANYANG,Xi'an Xianyang International Airport,Xianyang,CN,XIY,34.4471,108.752,city_match_single,destination
+YEREVAN,Zvartnots International Airport,Yerevan,AM,EVN,40.1473,44.3959,city_match_single,destination
+ZADAR,Zemunik Airport,Zadar,HR,ZAD,44.1083,15.3467,city_match_single,destination
+ZAGREB,Zagreb Airport,Zagreb,HR,ZAG,45.7429,16.0688,city_match_single,destination
+ZAKINTHOS,Zakynthos International Airport,Zakynthos,GR,ZTH,37.7509,20.8843,manual_override,destination
+ZARAGOZA,Zaragoza Air Base,Zaragoza,ES,ZAZ,41.6662,-1.04155,city_match_single,destination
+ZHENGZHOU XINZHENG,Xinzheng Airport,Zhengzhou,CN,CGO,34.5197,113.841,city_match_single,destination
+ZURICH,Zurich Airport,Zurich,CH,ZRH,47.4647,8.54917,city_match_single,destination
+HEATHROW,London Heathrow Airport,London,GB,LHR,51.47,-0.4543,manual_origin,origin
+GATWICK,London Gatwick Airport,London,GB,LGW,51.1481,-0.1903,manual_origin,origin
+LUTON,London Luton Airport,London,GB,LTN,51.8747,-0.3683,manual_origin,origin
+STANSTED,London Stansted Airport,London,GB,STN,51.886,0.2389,manual_origin,origin
+LONDON CITY,London City Airport,London,GB,LCY,51.5053,0.0553,manual_origin,origin
