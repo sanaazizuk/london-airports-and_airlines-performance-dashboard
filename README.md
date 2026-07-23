@@ -114,7 +114,7 @@ Before any analysis, the raw monthly exports needed real cleaning. Each file cov
 
 **First pass, testing the cleaning logic on a single month**
 
-*Add screenshot here: images/py_01_load_single_file.png*
+*Add screenshot here: images/py_01_load.png*
 
 The January 2023 file was loaded first on its own, to check the column structure and confirm what actually needed cleaning before touching all 40 files at once.
 
@@ -166,11 +166,8 @@ Rather than manually tracking which of the 40 files needed which encoding, the l
 
 Once all 40 files were successfully combined into one table, the same London airport filter, date conversion, and column label mapping used earlier on the single test file were applied again to the full combined dataset.
 
-**Checking for missing values before exporting**
-
-*Add screenshot here: images/py_10_missing_check.png*
-
 A missing value check was run across every column before export, confirming the cleaned dataset was complete and ready for MySQL.
+
 
 **Exporting the cleaned file**
 
