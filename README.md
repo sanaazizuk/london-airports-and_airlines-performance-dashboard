@@ -114,7 +114,7 @@ Before any analysis, the raw monthly exports needed real cleaning. Each file cov
 
 **First pass, testing the cleaning logic on a single month**
 
-![py01 screenshot](images/py_01_load.png.png)
+![py01 screenshot](images/py_01_load.png)
 
 
 The January 2023 file was loaded first on its own, to check the column structure and confirm what actually needed cleaning before touching all 40 files at once.
