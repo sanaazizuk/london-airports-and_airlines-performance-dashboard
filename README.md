@@ -13,7 +13,7 @@
 
 ## Dashboard Preview
 
-![Dashboard preview](images/page1_home.png)
+![Dashboard preview](images/page1_home.gif)
 
 ---
 
